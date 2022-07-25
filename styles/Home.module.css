@@ -147,7 +147,8 @@
 
 /* Container Educacion complementaria */
 .container__educacion_complementaria ul {
-  list-style: inside;
+  padding-left: 1rem;
+  list-style: disc;
 }
 
 .container__educacion_complementaria li {
