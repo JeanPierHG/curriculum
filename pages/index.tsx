@@ -42,13 +42,22 @@ const Home: NextPage = () => {
               </p>
             </div>
             <div className={styles.container__icons}>
-              <a href=''>
+              <a
+                href='https://github.com/JeanPierHG'
+                target={'_blank'}
+                rel={'noreferrer'}>
                 <SiGithub />
               </a>
-              <a href=''>
+              <a
+                href='https://www.linkedin.com/in/jeanpierdev/'
+                target={'_blank'}
+                rel={'noreferrer'}>
                 <SiLinkedin />
               </a>
-              <a href=''>
+              <a
+                href='https://myportfolio-jean.vercel.app/'
+                target={'_blank'}
+                rel={'noreferrer'}>
                 <IoBagSharp />
               </a>
             </div>
