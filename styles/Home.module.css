@@ -64,18 +64,18 @@
   grid-template-columns: repeat(2, 1fr);
   height: 100vh;
 }
-/* Left SIDE */
+
+.container__data h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+}
+/* LEFT SIDE */
 
 .container__leftSide {
   padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-}
-
-.container__leftSide h2 {
-  font-size: 2.8rem;
-  margin-bottom: 1.2rem;
 }
 
 /* Container Tech */
@@ -88,6 +88,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  padding-left: 2rem;
 }
 
 .container__tech h3 {
@@ -111,19 +112,103 @@
 /* Container Competencias */
 
 .container__competencias ul {
-  padding-left: 4rem;
-
+  padding-left: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.2rem;
+  list-style: inside;
 }
 
 .container__competencias li {
   font-size: 1.8rem;
-  font-weight: 600;
+}
+
+/* Container Idiomas */
+
+.container__idiomas ul {
+  list-style: inside;
+
+  padding-left: 2rem;
+}
+
+.container__idiomas li {
+  font-size: 1.8rem;
+}
+/* Container Hobbies */
+
+.container__hobbies ul {
+  list-style: inside;
+  padding-left: 2rem;
+}
+
+.container__hobbies li {
+  font-size: 1.8rem;
+}
+
+/* Container Educacion complementaria */
+.container__educacion_complementaria ul {
+  list-style: inside;
+}
+
+.container__educacion_complementaria li {
+  font-size: 1.4rem;
 }
 
 /* RIGHT SIDE */
 .container__history {
-  background-color: #dee2e6;
+  background-color: #099268;
+  color: #f1f3f5;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Container Proyectos */
+
+.container__proyectos h3 {
+  font-size: 2.2rem;
+}
+.container__proyecto {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 2rem 1rem;
+}
+.container__proyecto > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__proyecto ul {
+  list-style: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.container__proyecto li {
+  font-size: 1.6rem;
+}
+
+.iconsProyect {
+  display: flex;
+  justify-content: flex-start !important;
+  gap: 2rem;
+
+  font-size: 3.8rem;
+}
+/* Container educacion profesional */
+
+.container__educacion ul {
+  list-style: inside;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.container__educacion li {
+  font-size: 1.8rem;
 }

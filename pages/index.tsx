@@ -21,6 +21,8 @@ import {
   SiTypescript,
   SiVisualstudiocode,
 } from 'react-icons/si'
+
+import { AiFillPlayCircle } from 'react-icons/ai'
 import imageFace from '../assets/profile.png'
 import styles from '../styles/Home.module.css'
 
@@ -166,20 +168,134 @@ const Home: NextPage = () => {
                 <ul>
                   <li>Trabajo en equipo</li>
                   <li>Creatividad</li>
-                  <li>Colaboracion</li>
+                  <li>Colaboración</li>
                   <li>Dedicación</li>
                   <li>Inteligencia Emocional</li>
                   <li>Proactividad</li>
                 </ul>
               </div>
             </div>
+            <div className={styles.container__idiomas}>
+              <h2>Idiomas</h2>
+              <ul>
+                <li>Inglés A2 - Básico</li>
+              </ul>
+            </div>
             <div className={styles.container__hobbies}>
               <h2>Hobbies</h2>
+              <ul>
+                <li>Escuchar música.</li>
+                <li>Ver películas.</li>
+                <li>Salir con los amigos.</li>
+                <li>Jugar futbol.</li>
+                <li>Ver tutoriales en youtube.</li>
+              </ul>
+            </div>
+            <div className={styles.container__educacion_complementaria}>
+              <h2>Cursos realizados</h2>
+              <ul>
+                <li>
+                  Next.js: El Framework de React para producción. Udemy 2022
+                </li>
+                <li>
+                  Node.js, Express, MongoDB & More: The Complete Bootcamp 2022.
+                  Udemy. 2022.
+                </li>
+                <li>
+                  The Complete JavaScript Course 2022: From Zero to Expert!.
+                  Udemy. 2021.
+                </li>
+                <li>
+                  Advanced CSS and Sass: Flexbox, Grid, Animations and More!.
+                  Udemy. 2021.
+                </li>
+                <li>
+                  Build Responsive Real-World Websites with HTML and CSS. Udemy.
+                  2020.
+                </li>
+              </ul>
             </div>
           </div>
           <div className={styles.container__history}>
-            <div>
-              <h2>Experienca Laboral</h2>
+            <div className={styles.container__proyectos}>
+              <h2>Proyectos</h2>
+              <div className={styles.container__proyecto}>
+                <div>
+                  <div>
+                    <h3>Full Stack Developer - Food App Recipes</h3>
+                    <span>Henry Bootcamp, Buenos Aires, Argentina.</span>
+                  </div>
+                  <span> 04/22 - 05/22</span>
+                </div>
+                <ul>
+                  <li>
+                    Diseñar y desarrollar una App de recetas que incluía:
+                    búsquedas, filtrados, ordenamientos y creación.
+                  </li>
+                  <li>
+                    Tecnologías usadas: React, Redux, Css, Express, PostgreSQL y
+                    Sequelize.
+                  </li>
+                  <li>
+                    Soft Skills obtenidas: dedicación, innovación, gestión del
+                    tiempo y proactividad.
+                  </li>
+                </ul>
+                <div className={styles.iconsProyect}>
+                  <SiGithub />
+                  <AiFillPlayCircle />
+                </div>
+              </div>
+              <div className={styles.container__proyecto}>
+                <div>
+                  <div>
+                    <h3>Full Stack Developer - Grow-Up Libros App </h3>
+                    <span>Henry Bootcamp, Buenos Aires, Argentina.</span>
+                  </div>
+                  <span> 06/22 - 07/22</span>
+                </div>
+                <ul>
+                  <li>
+                    Diseñar y desarrollar una App para personas que buscan
+                    libros que incluía: login, listado de productos, pasarela de
+                    pago, envío de mails, filtros por género, ordenamientos por
+                    rating, ventas, precio y toda la parte de administrador para
+                    que el dueño pueda manejar sus órdenes, usuarios y sus
+                    productos
+                  </li>
+                  <li>
+                    Esta aplicación fue creada en conjunto con varios
+                    desarrolladores, se implementó la metodología ágil Scrum y
+                    se usó la aplicación Asana para la gestión del proyecto.
+                  </li>
+                  <li>
+                    Tecnologías usadas: React, Redux y Material UI, MongoDB,
+                    Mongo Atlas, Mongoose, Express, NodeMailer y Mercado Pago.
+                  </li>
+                  <li>
+                    Soft Skills obtenidas: orientación al cliente, planificación
+                    y organización, análisis de problemas, colaboración y
+                    cooperación.
+                  </li>
+                </ul>
+                <div className={styles.iconsProyect}>
+                  <SiGithub />
+                  <AiFillPlayCircle />
+                </div>
+              </div>
+            </div>
+            <div className={styles.container__educacion}>
+              <h2>Educación Profesional</h2>
+              <ul>
+                <li>
+                  Full Stack Developer. Henry Bootcamp. 700 horas de cursado
+                  teórico-práctico. 2022.
+                </li>
+                <li>
+                  {' '}
+                  Sistemas e Informática. Instituto Superior SISE. 2018 - 2019.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
