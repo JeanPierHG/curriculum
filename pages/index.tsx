@@ -242,8 +242,15 @@ const Home: NextPage = () => {
                   </li>
                 </ul>
                 <div className={styles.iconsProyect}>
-                  <SiGithub />
-                  <AiFillPlayCircle />
+                  <a href='https://github.com/JeanPierHG/proyectFood'>
+                    <SiGithub />
+                  </a>
+                  <a
+                    href='https://food-recipesapp.vercel.app/'
+                    target={'_blank'}
+                    rel='noreferrer'>
+                    <AiFillPlayCircle />
+                  </a>
                 </div>
               </div>
               <div className={styles.container__proyecto}>
@@ -279,8 +286,18 @@ const Home: NextPage = () => {
                   </li>
                 </ul>
                 <div className={styles.iconsProyect}>
-                  <SiGithub />
-                  <AiFillPlayCircle />
+                  <a
+                    href='https://github.com/JeanPierHG/E-Commerce-Books'
+                    target={'_blank'}
+                    rel='noreferrer'>
+                    <SiGithub />
+                  </a>
+                  <a
+                    href='https://e-commerce-books.vercel.app/'
+                    target={'_blank'}
+                    rel='noreferrer'>
+                    <AiFillPlayCircle />
+                  </a>
                 </div>
               </div>
             </div>
