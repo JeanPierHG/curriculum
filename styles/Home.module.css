@@ -12,12 +12,12 @@
   justify-content: center;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85)
     ),
-    url('../assets/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg');
+    url('../assets/jane-palash-dfRgump8lsE-unsplash.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 
   color: white;
 }
@@ -41,17 +41,6 @@
   font-size: 4rem;
 }
 
-.container__data {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(2, 1fr);
-  height: 100vh;
-}
-
-.container__contact {
-  padding: 1rem 2rem;
-}
-
 .myface {
   border-radius: 100%;
 }
@@ -68,4 +57,27 @@
   font-size: 3.2rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+/* Left SIDE */
+
+.container__data {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+}
+
+.container__skills {
+  padding: 1rem 2rem;
+}
+
+.container__tech {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* RIGHT SIDE */
+.container__history {
+  background-color: #dee2e6;
 }

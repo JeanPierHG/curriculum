@@ -64,15 +64,37 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className={styles.container__data}>
-          <div className={styles.container__contact}>
-            <div>
-              <h2>Tech Skills</h2>
+          <div className={styles.container__skills}>
+            <h2>Tech Skills</h2>
+            <div className={styles.container__tech}>
               <div>
+                <h3>Front-end</h3>
                 <ul>
                   <li>React</li>
                   <li>Redux</li>
                   <li>Next.js</li>
                   <li>TypeScript</li>
+                  <li>Framer-Motion</li>
+                  <li>MaterialUI</li>
+                  <li>NextUI</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Back-end</h3>
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>PostgreSQL</li>
+                  <li>Mongodb</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Tools</h3>
+                <ul>
+                  <li>Visual Studio Code</li>
+                  <li>Linux</li>
+                  <li>Docker</li>
+                  <li>Git & Github</li>
                 </ul>
               </div>
             </div>
